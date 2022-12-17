@@ -29,22 +29,22 @@ public class F1 extends Car {
             changeSpeed(newSpeed, getCurrentDirection());
             int speed = getCurrentSpeed();
             if(speed>0 && speed<=50){
-                System.out.println("gear 1");
+               changeGear(1);
             }
             if(speed>50 && speed<=100){
-                System.out.println("gear 2");
+                changeGear(2);
             }
             if(speed>100 && speed<=150){
-                System.out.println("gear 3");
+                changeGear(3);
             }
             if(speed>150 && speed<=200){
-                System.out.println("gear 4");
+                changeGear(4);
             }
             if(speed>200 && speed<=250){
-                System.out.println("gear 5");
+                changeGear(5);
             }
             if(speed>250 ){
-                System.out.println("gear 6");
+                changeGear(6);
             }
         }
     }
