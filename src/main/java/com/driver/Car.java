@@ -21,12 +21,9 @@ public class Car extends Vehicle {
         return type;
     }
 
-    public boolean isManual() {
-        return isManual;
-    }
 
-    public void setManual(boolean manual) {
-        isManual = manual;
+    public boolean isManual(){
+        return isManual;
     }
 
     public void setType(String type) {
@@ -53,9 +50,7 @@ public class Car extends Vehicle {
         return currentGear;
     }
 
-    public void setCurrentGear(int currentGear) {
-        this.currentGear = currentGear;
-    }
+
 
     public int getSeats() {
         return seats;
